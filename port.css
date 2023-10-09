@@ -1,0 +1,249 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+}
+nav{
+    background:#020d15;
+    height:50px;
+    width:100%;
+}
+nav ul{
+    float:right;
+    margin-right:10px;
+}
+nav ul li{
+    display:inline-block;
+    line-height:10px;
+    margin:0 10px;
+}
+nav ul li a{
+    color:white;
+    font-size:17px;
+    padding:7px 13px;
+    border-radius:2px;
+    text-transform:uppercase;
+}
+a.active,a:hover{
+    background:#ff1b32;
+    transition:.5s;
+}
+.background{
+    height:300vh;
+    background-color:antiquewhite;
+    
+}
+.image{
+    height:10vh;
+    width:45vw;
+}
+.head{
+    color:white;
+    text-decoration:underline;
+    font-family:"Roboto";
+    margin:5px;
+    padding:0px;
+}
+.btn{
+    background-color:cornflowerblue;
+    height:6vh;
+    width:13vw;
+    text-align:center;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    padding:2px;
+    margin:5px;
+    color:white;
+    font-weight:bold;
+    border-image-outset: 0cap;
+}
+.btn:hover{
+    background-color:#020d15;
+    transition:2s;
+}
+.back{
+    margin:50px;
+      
+}
+.text{
+    font-size: 20px;
+    padding-right: 10px;
+    padding-top: 10%;
+    float:right;
+    color:#ff1b32;
+}
+.h2{
+    color:darkblue;
+    font-size:30px;
+}
+.p{
+    height:20px;
+    color:darkgreen;
+}
+.p1{
+    text-align:left;
+    font-size:30px;
+    font-family:"Roboto";
+    color:black;
+    text-decoration:aliceblue;
+}
+.about{
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    background-color:black;
+    font-family:"sans-serif";
+    color:white;
+    padding:5px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    height:35vh;
+    margin:5px;
+    letter-spacing:1px;;
+
+}
+.skills{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    background-color:black;
+    font-family:"Roboto";
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+
+}
+.projects{
+    color:darkred;
+    font-size:20px;
+    font-weight:bold;
+    background-color:black;
+    font-family:"Roboto";
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    height:55vh;
+    margin:5px;
+    padding:8px;
+    letter-spacing:1px;
+}
+.contact{
+    color:darkgreen;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    padding:5px;
+    font-weight:bold;
+    font-family:"Roboto";
+    text-decoration:underline;
+}
+.simage{
+    height:100px;
+    width:150px;
+    padding:15px;
+    margin:20px;
+}
+.akilimage{
+    float:right;
+
+}
+.skills:hover{
+    background-color: green;
+    transition:3s;
+}
+.about:hover{
+    background-color:red;
+    transition:3s;
+}
+.projects:hover{
+    background-color:yellow;
+    transition:3s;
+}
+.cont {
+    display: flex;
+    justify-content:left;
+    margin: 10px;
+    height:20px;
+    color:darkblue;
+}
+#zoom {
+    border-radius: 10px;
+    cursor: pointer;  
+    width: 100px;
+  }
+  
+  #zoom:hover {
+    animation-name: on-hover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  /* css keyframes to zoom in and out the image */
+  
+  @keyframes on-hover {
+    0% {
+      height: auto;
+      opacity: 0.7;
+    }
+   100% {
+      width: 200px;
+      height: auto;
+    }
+  }
+  .ad{
+    padding:5px;
+
+  }
+  .ph{
+    padding:5px;
+
+  }
+.em{
+    padding:5px;
+}
+.Eathquake{
+    background-color:cornflowerblue;
+    color:white;
+    font-size:15px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    font-family:"sans-serif";
+    height:20vh;
+    float:left;
+    margin:7px;
+    padding:10px;
+
+}
+.Travel{
+    background-color:coral;
+    color:white;
+    font-size:15px;
+    font-family:"sans-serif";
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    width:50vw;
+    height:20vh;
+    float:left;
+    margin:7px;
+    padding:10px; 
+}
+.machine{
+    float:right;
+    padding:15px;
+}
+.tourism{
+    float:right;
+    padding:2px;  
+}
